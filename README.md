@@ -81,7 +81,7 @@ sudo ln -s /home/user/myscripts/siteadder.sh /usr/bin/wadd
 /var/www/html/testsite3/<br />
 
 ```bash
-./siteadder -a 2 -p testsite myDir
+./siteadder -a 2 -p testsite -d myDir
 ```
 ↑This command will create directory ./mydir and create two sites in current directory:<br />
 ./myDir/testsite1<br />
